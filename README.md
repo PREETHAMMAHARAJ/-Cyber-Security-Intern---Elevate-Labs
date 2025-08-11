@@ -1,7 +1,7 @@
 # -Cyber-Security-Intern---Elevate-Labs
 This repository showcases the work, tasks, and learning progress during my Cyber Security Internship at Elevate Labs. It includes hands-on labs, vulnerability assessments, network scans, incident response activities, and documentation of tools and techniques used in real-world cybersecurity scenarios.
 
-Task 1: Scan Your Local Network for Open Ports
+Task 1: **Scan Your Local Network for Open Ports**
 Objective :-
 Learn how to perform basic network reconnaissance by identifying live hosts and discovering open ports on your local network using Nmap. Understand the risks associated with exposed services.
 
@@ -19,7 +19,7 @@ Takeaways :-
 -> Practiced documenting scan results for reporting.
 
 
-Task 2: Analyze a Phishing Email Sample
+Task 2: **Analyze a Phishing Email Sample**
 
 Objective :-
 Develop the skills to identify and analyze phishing emails by inspecting metadata, content, and behavioral tactics used in social engineering. Learn to recognize spoofed senders, malicious links, and emotional triggers to understand how attackers bypass technical defenses.
@@ -49,7 +49,7 @@ Skills Gained :-
 -> Psychological and linguistic phishing tactics
 -> Forensic-level SOC investigation workflow
 
-Task 3: Vulnerability Scanning with Nessus Essentials
+Task 3: **Vulnerability Scanning with Nessus Essentials**
 Overview :-
 This task involved performing a vulnerability scan using **Tenable Nessus Essentials** to identify potential security issues on a target system.  
 The goal was to understand the scanning process, analyze results, and extract key findings from the `.nessus` scan report.
@@ -94,3 +94,34 @@ Key Learnings :-
 -> Nessus Essentials is powerful for **network vulnerability scanning** and **service enumeration**.
 -> Even informational findings (severity 0) can be valuable to attackers if left unmonitored.
 -> The `.nessus` file provides **raw structured data** for post-scan analysis and can be parsed for automated reporting.
+
+Task 4: **Setup and Use a Firewall on Windows/Linux**
+Objective :-
+Configure and test basic firewall rules to allow or block traffic, gaining hands-on experience with network traffic filtering.
+
+Theory
+A **firewall** is a security system that monitors and controls incoming and outgoing network traffic based on pre-defined rules.  
+It acts as a barrier between a trusted internal network and untrusted external networks (e.g., the internet).
+
+Types of Firewalls :-
+-> **Packet-filtering** – Evaluates packets based on headers (IP, port, protocol).
+-> **Stateful inspection** – Tracks active connections and determines whether packets are part of a valid session.
+-> **Application-level** – Filters based on application data (HTTP, FTP).
+-> **Host-based** – Runs on individual machines (e.g., Windows Firewall, UFW).
+-> **Network-based** – Runs on dedicated hardware (Cisco ASA, Palo Alto, etc.).
+
+Why This Matters in Cybersecurity Roles :-
+-> SOC Analysts review firewall logs to detect anomalies.
+-> Penetration testers assess misconfigurations or firewall evasion techniques.
+-> System administrators configure firewall policies to harden systems.
+
+Tools Used :-
+-> **Windows Defender Firewall with Advanced Security**
+-> **UFW (Uncomplicated Firewall)** on Linux
+
+Outcome :-
+-> By completing this task, you now have:
+-> Practical experience configuring firewall rules.
+-> Understanding of how firewalls block/allow network traffic.
+-> Knowledge of testing firewall rules with Nmap.
+-> Awareness of best practices and learning resources for deeper study.
