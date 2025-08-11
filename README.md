@@ -125,3 +125,48 @@ Outcome :-
 -> Understanding of how firewalls block/allow network traffic.
 -> Knowledge of testing firewall rules with Nmap.
 -> Awareness of best practices and learning resources for deeper study.
+
+
+Task 5: Capture and Analyze Network Traffic Using Wireshark
+Objective :-
+Capture live network packets and identify basic protocols and traffic types, improving packet analysis skills and protocol awareness.
+
+Theory :-
+**Wireshark** is a free, open-source network protocol analyzer that allows users to capture and inspect packets traveling over a network in real time.
+
+Key Concepts :-
+-> **Packet** – The basic unit of data transmitted over a network.
+-> **Protocol** – A set of rules defining how data is transmitted and interpreted (e.g., HTTP, TCP, UDP).
+-> **Packet Capture (.pcap/.pcapng)** – A file containing recorded network packets for later analysis.
+
+Why This Matters in Cybersecurity Roles :-
+-> SOC Analysts use packet captures to investigate suspicious activity.
+-> Penetration testers analyze traffic for credentials, tokens, and unencrypted data.
+-> Network engineers troubleshoot latency, packet loss, and misconfigurations.
+
+Common Protocols You Might See :-
+-> **HTTP** – Web traffic, often in plaintext unless over HTTPS.
+-> **TCP** – Reliable, connection-oriented communication.
+-> **UDP** – Faster, connectionless communication.
+-> **DNS** – Resolves domain names to IP addresses.
+-> **PKIX-CRL** – Used in SSL/TLS for certificate revocation checks.
+
+Tools Used :-
+-> **Wireshark** (packet capture and analysis)
+
+Analysis & Findings :-
+**Protocols Identified:**
+| Protocol   | Purpose | Example from Capture |
+|------------|---------|----------------------|
+| HTTP       | Web traffic (plaintext requests/responses) | `GET /r/gsrn1.crl HTTP/1.1` → `HTTP/1.1 304 Not Modified` |
+| TCP        | Reliable connection-based transport | SYN, ACK packets in HTTP session establishment |
+| UDP        | Fast, connectionless communication | DNS queries to `fonts.gstatic.com` |
+| DNS        | Domain-to-IP resolution | Query: `www.primevideo.com` → Response: `108.158.252.5` |
+| PKIX-CRL   | SSL/TLS certificate revocation checking | Download of CRL from certificate authority |
+
+Outcome :-
+By completing this task:
+-> Learned how to capture live traffic in Wireshark.
+-> Identified multiple protocols in real network activity.
+-> Gained insight into how common protocols function at the packet level.
+-> Understood the role of packet analysis in cybersecurity investigations.
