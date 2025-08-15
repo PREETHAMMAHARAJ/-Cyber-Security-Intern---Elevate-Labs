@@ -170,3 +170,30 @@ By completing this task:
 -> Identified multiple protocols in real network activity.
 -> Gained insight into how common protocols function at the packet level.
 -> Understood the role of packet analysis in cybersecurity investigations.
+
+
+Task 6: Create a Strong Password and Evaluate Its Strength
+Objective :-
+Understand what makes a password strong and test it using online password strength checkers.
+
+Theory
+A **password** is the first line of defense against unauthorized access. A strong password increases resistance to brute-force, dictionary, and credential stuffing attacks.
+
+Characteristics of a Strong Password :-
+-> At least **12–16 characters** long.
+-> Mix of **uppercase, lowercase, numbers, and symbols**.
+-> Avoid **dictionary words**, names, dates, or predictable patterns.
+-> Should be **unique** for every account.
+
+Common Password Attacks :-
+-> **Brute Force Attack** – Trying all possible combinations.
+-> **Dictionary Attack** – Using a precompiled list of words and common passwords.
+-> **Credential Stuffing** – Using leaked username-password pairs.
+-> **Phishing** – Tricking users into revealing passwords.
+
+Best Practices for Creating Strong Passwords :-
+-> Use **passphrases** with random words + symbols.
+-> Increase **length** — the longer, the better.
+-> Never reuse passwords across accounts.
+-> Use a **password manager** for storage and generation.
+-> Enable **multi-factor authentication (MFA)** whenever possible.
